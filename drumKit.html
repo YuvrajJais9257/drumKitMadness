@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrumKitMadness</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="drumKit.css">
+    <link rel="icon" href="images\favicon_io\drumKit.png">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ca6b97aa8a.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Nav Bar -->
+    <div class="container-fluid">
+        <nav class="navbar  fixed-top navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">DrumKitMadness</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Download</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">More</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Interact</a></li>
+                            <li><a class="dropdown-item" href="#">Others</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Nothing to see here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Title -->
+
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-9 col-sm-9 col-mid-9">
+                    <h3 class="big-heading" style="margin-top: 70px;">Even If Everything Is A Mess, The Show Must Go On!
+                    </h3>
+                    <div class="center">
+                        <button type="button" class="btn btn-dark"><i class="fab fa-apple"></i>Download</button>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <button type="button" class="btn btn-light"><i class="fab fa-google-play"></i>Download</button>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</head>
+
+<body>
+
+    <div class="container set">
+        <button class="y drum">y</button>
+        <button class="u drum">u</button>
+        <button class="v drum">v</button>
+        <button class="r drum">r</button>
+        <button class="a drum">a</button>
+        <button class="j drum">j</button>
+        <button class="x drum">x</button>
+    </div>
+
+    <!--footer-->
+
+    <footer class="white-section" id="footer">
+        <br>
+        <div class="container-fluid">
+            <i class="social-icon fa-brands fa-twitter"></i>
+            <i class="social-icon fa-brands fa-facebook-f"></i>
+            <i class="social-icon fa-brands fa-instagram"></i>
+            <i class="social-icon fa-solid fa-envelope"></i>
+            <br>
+            <br>
+            <p>© DrumKitMadness</p>
+        </div>
+    </footer>
+
+    <script src="drumKit.js" charset="utf-8"></script>
+    <script>
+        // Redirect to the Thank You page after 3 seconds (3000 milliseconds)
+        setTimeout(function() {
+            window.location.href = "thankyou.html";
+        }, 9000);
+    </script>
+
+</body>
+
+</html>
