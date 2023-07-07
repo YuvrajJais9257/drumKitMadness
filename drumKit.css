@@ -92,3 +92,19 @@ footer {
 .red {
   color: red;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .set {
+    margin: 20% auto;
+  }
+
+  .drum {
+    font-size: 3rem;
+    width: 120px;
+    height: 120px;
+  }
+}
